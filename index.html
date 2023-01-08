@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo-dark</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header class="header">
+        <div class="header__container container">
+            <div class="header__top">
+                <a href="#" class="logo">
+                    <img src="./images/TODO.svg" alt="">
+                </a>
+                <div class="light-img-wrapper">
+                    <img class="light-img" src="./images/light.svg" alt="">
+                    <img class="dark-img hidden" src="./images/dark.svg" alt="">
+                </div>
+            </div>
+            <div class="filters-search-wrapper">
+                <span class="filters-search-circle"></span>
+                <input class="search-form__input" name="search" required type="search" placeholder="Create a new todo…">
+            </div>
+        </div>
+    </header>
+
+    <!-- MAIN -->
+    <main class="main-conten">
+        <div class="container">
+            <ul class="main-conten__list">
+                <li class="main-conten__item">
+                    <span class="main-conten__circle1"></span>
+                    <p class="main-conten__title1">Complete online JavaScript course</p>
+                    <hr>
+                </li>
+
+                <li class="main-conten__item">
+                    <span class="main-conten__circle"></span>
+                    <p class="main-conten__title">Jog around the park 3x</p>
+                    <hr>
+                </li>
+
+                <li class="main-conten__item">
+                    <span class="main-conten__circle"></span>
+                    <p class="main-conten__title">10 minutes meditation</p>
+                    <hr>
+                </li>
+
+                <li class="main-conten__item">
+                    <span class="main-conten__circle"></span>
+                    <p class="main-conten__title">Read for 1 hour</p>
+                    <hr>
+                </li>
+
+                <li class="main-conten__item">
+                    <span class="main-conten__circle"></span>
+                    <p class="main-conten__title">Pick up groceries</p>
+                    <hr>
+                </li>
+
+                <li class="main-conten__item">
+                    <span class="main-conten__circle"></span>
+                    <p class="main-conten__title">Complete Todo App on Frontend Mentor</p>
+                    <hr>
+                </li>
+
+                <li class="list-footer">
+                    <p class="list-footer__text">5 items left</p>
+                    <div class="list-footer__title-wrapper">
+                        <h5 class="list-footer__title active">All</h5>
+                        <h5 class="list-footer__title">Active</h5>
+                        <h5 class="list-footer__title">Completed</h5>
+                    </div>
+                    <span class="list-footer__clear">Clear Completed</span>
+                </li>
+            </ul>
+            <div class="main-conten__footer">
+                <span>Drag and drop to reorder list</span>
+            </div>
+        </div>
+    </main>
+
+    <!-- JS -->
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
