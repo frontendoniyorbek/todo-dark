@@ -279,3 +279,67 @@ hr {
 .hidden {
     display: none;
 }
+
+
+@media screen and (max-width: 550px) {
+    .search-form__input {
+        max-width: 540px;
+        width: 100%;
+        padding-top: 2.3rem;
+        padding-bottom: 2.3rem;
+        padding-left: 6rem;
+    }
+
+    .main-conten__title {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        margin-left: 6rem;
+    }
+
+    .main-conten__title1 {
+        margin-bottom: 1rem;
+        margin-left: 6rem;
+    }
+
+    .list-footer__text {
+        margin-right: 2.5rem;
+    }
+
+    .list-footer__title-wrapper {
+        margin-left: 3rem;
+    }
+
+    .list-footer__title {
+        margin-right: 1rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .list-footer {
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        font-size: 1.8rem;
+    }
+
+    .list-footer__text {
+        margin-right:  0;
+        margin-bottom: 1.5rem;
+        font-size: 1.8rem;
+    }
+
+    .list-footer__title-wrapper {
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 1.5rem;
+    }
+
+    .list-footer__title {
+        margin-right: 0;
+        font-size: 1.8rem;
+    }
+
+    .list-footer__title:not(:last-child) {
+        margin-right: 1rem;
+    }
+}
